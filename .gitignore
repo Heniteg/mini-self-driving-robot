@@ -1,0 +1,22 @@
+# Ignore build artifacts
+build/
+bin/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code settings (optional)
+.vscode/
+
+# Ignore executable files (just in case)
+*.out
+*.exe
+
+# Ignore any logs
+*.log
+
+# Ignore temporary files
+*.tmp
