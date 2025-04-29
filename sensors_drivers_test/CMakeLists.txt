@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(sensorsDriversTest)
+project(sensors_drivers_test)
 
 find_package(realsense2 REQUIRED)
 find_package(OpenCV REQUIRED)
