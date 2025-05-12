@@ -12,3 +12,6 @@ target_link_libraries(realsense_test realsense2 ${OpenCV_LIBS})
 
 add_executable(rs_opencv_realtime src/rs_opencv_realtime.cpp)
 target_link_libraries(rs_opencv_realtime realsense2 ${OpenCV_LIBS})
+
+add_executable(capture_save_image src/capture_save_image.cpp)
+target_link_libraries(capture_save_image realsense2 ${OpenCV_LIBS})
