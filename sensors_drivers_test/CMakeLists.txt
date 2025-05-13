@@ -19,6 +19,12 @@ target_link_libraries(capture_save_image realsense2 ${OpenCV_LIBS})
 add_executable(realsense_fps_and_frame_size_monitor src/realsense_fps_and_frame_size_monitor.cpp)
 target_link_libraries(realsense_fps_and_frame_size_monitor realsense2 ${OpenCV_LIBS})
 
+add_executable(realsense_fps_with_opencv src/realsense_fps_with_opencv.cpp)
+target_link_libraries(realsense_fps_with_opencv realsense2 ${OpenCV_LIBS})
+
+
+
+
 
 
 
