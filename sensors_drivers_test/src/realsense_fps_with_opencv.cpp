@@ -35,7 +35,7 @@ void convertToOpenCV(const rs2::video_frame& frame, cv::Mat& rgb_image, cv::Mat&
 void displayFrames(const cv::Mat& rgb, const cv::Mat& bgr) 
 {
     cv::Mat combined;
-    cv::hconcat(rgb, bgr, combined);
+    cv::hconcat(rgb, bgr, combined); // horizontally stacks RGB and BGR images side by side
     cv::imshow("RGB (native) vs BGR (OpenCV)", combined);
 }
 
