@@ -14,7 +14,7 @@ This repository includes real-time control, perception, and planning experiments
 Motor control logic using L298N H-Bridge and Arduino PWM.
 
 🔗 [motorControl.ino](https://github.com/Heniteg/mini-self-driving-robot/blob/main/Arduino-Controller/motorControl/motorControl.ino)  
-📒 [Hardware + Motor Control Overview](https://www.notion.so/Mini-Self-Driving-Car-Project-Overview-1f5bc9851ae780dd8717d8afeb42d59b)
+📒 [Hardware + Motor Control Overview](https://www.notion.so/Mini-Self-Driving-Car-Project-Overview-1fabc9851ae7801f935af67a8fdd5b36?pvs=4)
 
 ---
 
@@ -24,8 +24,8 @@ Testing and integrating Intel RealSense D435i on Raspberry Pi.
 - 🔗 [realsense_test.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/sensors_drivers_test/src/realsense_test.cpp) – Basic RealSense pipeline test
 - 🔗 [rs_opencv_realtime.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/sensors_drivers_test/src/rs_opencv_realtime.cpp) – OpenCV color stream with RealSense
 
-📒 [OpenCV + RealSense Installation](https://www.notion.so/OpenCV-and-RealSense-D435i-Installation-on-Raspberry-Pi-4-Ubuntu-22-04-1f8bc9851ae7804fa565c24b9d616855)  
-📒 [Testing RealSense Output](https://www.notion.so/Working-with-realsense-on-raspberry-pi-4-Ubuntu-22-04-1f8bc9851ae7808793daf5c57bd727d4)
+📒 [OpenCV + RealSense Installation](https://www.notion.so/OpenCV-and-RealSense-D435i-Installation-on-Raspberry-Pi-4-Ubuntu-22-04-1fabc9851ae780ddb6eacfa98e6fbb97?pvs=4)  
+📒 [Testing RealSense Output](https://www.notion.so/Working-with-realsense-on-raspberry-pi-4-Ubuntu-22-04-1fabc9851ae7808ca53ddf5d61ef3791?pvs=4)
 
 ---
 
@@ -35,7 +35,7 @@ Image utilities for ROI definition and lane detection preparation.
 - 🔗 [realtime_pixel_info_hovering_mouse.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/images_processing/src/realtime_pixel_info_hovering_mouse.cpp) – Real-time pixel coordinate tracker
 - 🔗 [visualizing_roi_perspective.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/images_processing/src/visualizing_roi_perspective.cpp) – Perspective transform + ROI visualization
 
-📒 [Pixel Coordinate Tracker – Notion](https://www.notion.so/Real-Time-Mouse-Hover-Pixel-Coordinate-Tracking-1f8bc9851ae7802b9f30e35da7b2a64c)
+📒 [Pixel Coordinate Tracker and ROI perspective](https://www.notion.so/Real-Time-Mouse-Hover-Pixel-Coordinate-Tracking-and-ROI-Perspective-1fabc9851ae78081a293d8a5fecaa45d?pvs=4)
 
 ---
 
@@ -49,8 +49,8 @@ Image utilities for ROI definition and lane detection preparation.
 
 ## 📚 Blog Posts
 
-📝 [What I Learned from Building My First Robot](https://medium.com/@heni1032.tegegn/how-i-started-building-my-own-mini-self-driving-car-lessons-from-day-1-541e7878ce6e)  
-🧠 [Using a Kalman Filter for Localization in ROS](https://medium.com/@heni1032.tegegn/how-i-used-a-kalman-filter-to-teach-my-robot-where-it-actually-is-52468e674c4a)
+📝 [What I Learned from Building My First Robot](https://medium.com/@heni1032.tegegn/how-i-started-building-my-own-mini-self-driving-car-lessons-from-day-1-90b89bdabdd4)  
+🧠 [Using a Kalman Filter for Localization in ROS](https://medium.com/@heni1032.tegegn/how-i-used-a-kalman-filter-to-teach-my-robot-where-it-actually-is-6c677b71c6e7)
 
 ---
 
@@ -63,5 +63,5 @@ Image utilities for ROI definition and lane detection preparation.
 ---
 
 ## 🤝 Let’s Connect
-I'm open to **collaboration**, feedback, and **opportunities** in robotics, AI, and embedded systems.  
+I am open to **collaboration**, feedback, and **opportunities** in robotics, AI, and embedded systems.  
 Let’s build something impactful together!
