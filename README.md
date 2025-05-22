@@ -4,7 +4,7 @@ A modular, DIY robotics project to prototype and learn autonomous driving system
 This repository includes real-time control, perception, and planning experiments for a small 4-wheeled robot.
 
 📘 [Visit my website](https://henoktegegn.com)  
-📒 [View detailed project logs](https://www.notion.so/Mini-Self-Driving-Car-Project-Overview-1f5bc9851ae780dd8717d8afeb42d59b)
+📒 [View detailed project logs](https://medium.com/@heni1032.tegegn/mini-self-driving-car-project-series-overview-7bd7afa4e60e)
 
 ---
 
@@ -14,7 +14,7 @@ This repository includes real-time control, perception, and planning experiments
 Motor control logic using L298N H-Bridge and Arduino PWM.
 
 🔗 [motorControl.ino](https://github.com/Heniteg/mini-self-driving-robot/blob/main/Arduino-Controller/motorControl/motorControl.ino)  
-📒 [Hardware + Motor Control Overview](https://www.notion.so/Mini-Self-Driving-Car-Project-Overview-1fabc9851ae7801f935af67a8fdd5b36?pvs=4)
+📒 [Hardware + Motor Control Overview](https://medium.com/@heni1032.tegegn/mini-self-driving-car-project-overview-7e3c25d73f52)
 
 ---
 
@@ -24,8 +24,8 @@ Testing and integrating Intel RealSense D435i on Raspberry Pi.
 - 🔗 [realsense_test.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/sensors_drivers_test/src/realsense_test.cpp) – Basic RealSense pipeline test
 - 🔗 [rs_opencv_realtime.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/sensors_drivers_test/src/rs_opencv_realtime.cpp) – OpenCV color stream with RealSense
 
-📒 [OpenCV + RealSense Installation](https://www.notion.so/OpenCV-and-RealSense-D435i-Installation-on-Raspberry-Pi-4-Ubuntu-22-04-1fabc9851ae780ddb6eacfa98e6fbb97?pvs=4)  
-📒 [Testing RealSense Output](https://www.notion.so/Working-with-realsense-on-raspberry-pi-4-Ubuntu-22-04-1fabc9851ae7808ca53ddf5d61ef3791?pvs=4)
+📒 [OpenCV + RealSense Installation](https://medium.com/@heni1032.tegegn/opencv-and-realsense-d435i-installation-on-raspberry-pi-4-ubuntu-22-04-bde9170671ef)  
+📒 [Testing RealSense Output](https://medium.com/@heni1032.tegegn/working-with-realsense-on-raspberry-pi-4-ubuntu-22-04-14f1739f8e03)
 
 ---
 
@@ -35,7 +35,7 @@ Image utilities for ROI definition and lane detection preparation.
 - 🔗 [realtime_pixel_info_hovering_mouse.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/images_processing/src/realtime_pixel_info_hovering_mouse.cpp) – Real-time pixel coordinate tracker
 - 🔗 [visualizing_roi_perspective.cpp](https://github.com/Heniteg/mini-self-driving-robot/blob/main/images_processing/src/visualizing_roi_perspective.cpp) – Perspective transform + ROI visualization
 
-📒 [Pixel Coordinate Tracker and ROI perspective](https://www.notion.so/Real-Time-Mouse-Hover-Pixel-Coordinate-Tracking-and-ROI-Perspective-1fabc9851ae78081a293d8a5fecaa45d?pvs=4)
+📒 [Pixel Coordinate Tracker and ROI perspective](https://medium.com/@heni1032.tegegn/real-time-mouse-hover-pixel-coordinate-tracking-and-roi-perspective-d116e4963193)
 
 ---
 
